@@ -10,12 +10,13 @@ public class Missing {
 
         int sum = n*(n+1)/2;
         int num = 0;
+        int miss = 0;
 
         for(int a : arr){
             num+=a;
         }
 
-        int missing = sum - num;
-        System.out.println("missing element: "+missing);
+         miss = sum - num;
+         System.out.println("missing element: "+miss);
     }
 }
