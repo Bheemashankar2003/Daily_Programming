@@ -10,7 +10,6 @@ public class CountANS {
         int sym = 0;
 
         for(int i = 0;i<s1.length();i++){
-
             char ch = s1.charAt(i);
             if(ch>='a' && ch<='z')
               alpha++;
@@ -21,8 +20,8 @@ public class CountANS {
         }
 
         System.out.println("count of alphabets: "+alpha);
-        System.out.println("count of the numbers: "+num);
-        System.out.println("count of the symbols: "+sym);
+        System.out.println("count of numbers: "+num);
+        System.out.println("count of symbols: "+sym);
         
     }
 }

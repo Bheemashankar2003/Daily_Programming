@@ -29,7 +29,8 @@ public class Panagram {
            // or //
         for(char ch = 'a'; ch<='z';ch++){
             if(s.indexOf(ch) == -1)
-              System.out.println("is not panagram");
-        }
+              System.out.println("is not pangram");
+            }
+
 }
 }
